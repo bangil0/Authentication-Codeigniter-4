@@ -18,7 +18,9 @@ Edit app/Config/Validation.php and add the following value to the ruleSets array
 ## Configuration Filters.php
 First, edit application/Config/Filters.php and add the following entries to the aliases property:
 
-`'login'      => \Myth\Auth\Filters\LoginFilter::class,
-    'role'       => \Myth\Auth\Filters\RoleFilter::class,
-    'permission' => \Myth\Auth\Filters\PermissionFilter::class,`
+`'login'      => \Myth\Auth\Filters\LoginFilter::class,`
+
+ `'role'       => \Myth\Auth\Filters\RoleFilter::class,`
+ 
+ `'permission' => \Myth\Auth\Filters\PermissionFilter::class,`
 
