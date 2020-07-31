@@ -7,4 +7,4 @@ Flexible, Powerful, Secure auth package for CodeIgniter 4.
 
 ## Installation
 Installation is best done via Composer. Assuming Composer is installed globally, you may use the following command:
-'> composer require myth/auth'
+`> composer require myth/auth`
